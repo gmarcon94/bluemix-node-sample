@@ -1,5 +1,6 @@
 language: node_js
-node_js:stable
+node_js:
+  - "4"
 
 deploy:
     provider: bluemixcloudfoundry
@@ -11,6 +12,3 @@ deploy:
     space: $BLUEMIX_SPACE
     on:
       branch: master
-
-notifications:
-    email: false
