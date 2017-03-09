@@ -3,6 +3,6 @@ applications:
   memory: 256M
   instances: 1
   domain: mybluemix.net
-  name: test
-  host: test-rak
+  name: bluemix-node-sample
+  host: bluemix-node-sample-br-hue
   disk_quota: 1024M
